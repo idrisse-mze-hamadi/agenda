@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <title>Formulaire</title>
+    <link rel="stylesheet" type="text/css" href="agenda.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+    <div class="testbox">
+        <form action="/">
+            <h1>Nouvel évènement</h1>
+            <hr />
+            <div class="item">
+                <p>Titre</p>
+                <input type="text" name="nom" />
+            </div>
+            <div class="item">
+                <p>Date de début d'évènement</p>
+                <input type="date" name="nom" required />
+                <i class="fas fa-calendar-alt"></i>
+            </div>
+
+            <div class="item">
+                <p>Date de fin d'évènement</p>
+                <input type="date" name="nom" required />
+                <i class="fas fa-calendar-alt"></i>
+            </div>
+
+            <div class="item complaint-details">
+                <p>Notes</p>
+                <div class="complaint-details-item">
+                    <textarea rows="5"></textarea>
+                </div>
+            </div>
+            <!--Ajouter et annulé renvoie vers l'agenda apres avoir remplis les dates-->
+            <div class="btn-block">
+                <button type="submit" formaction="file:///C:/Users/mzeid/Documents/GitHub/agenda/agenda.html">Annuler</button>
+                <button type="submit" formaction="file:///C:/Users/mzeid/Documents/GitHub/agenda/agenda.html">Ajouter</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
