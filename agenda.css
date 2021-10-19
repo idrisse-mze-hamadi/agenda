@@ -18,12 +18,13 @@ table, tr, td, th {
     border-width: 11px thick;
     margin: 0px;
 }
-.tableau{
-    display:flex;
-    justify-content:center;
-    margin:396px;
+.tableau {
+    display: flex;
+    justify-content: center;
+    margin-left: 340px;
+    width: 648px;
 }
-/*code couleur: orangered evenement important green evenement récurent*/
+/*code couleur: "orangered evenement important" "green evenement récurent" "red week-end" */
 .busy {
     width: 60px;
     height: 40px;
@@ -38,7 +39,7 @@ table, tr, td, th {
 }
     
 .busy:hover{
-    transform:scale(5);
+    transform:scale(4);
     background-color: orangered;
 }
 .busy2 {
@@ -57,6 +58,23 @@ table, tr, td, th {
 .busy2:hover {
     transform: scale(2);
     background-color: green;
+}
+.busy3 {
+    width: 61px;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    max-width: 100%;
+    transform-origin: 65% 75%;
+    transition: transform 1s, filter .5s ease-out;
+    max-width: 100%;
+    transform-origin: 65% 75%;
+    transition: transform 1s, filter .5s ease-out;
+}
+
+.busy3:hover {
+    transform: scale(1);
+    background-color: red;
 }
 
 /*menu*/
@@ -126,6 +144,7 @@ header{
 footer{
     background-color:antiquewhite;
     display:flow-root;
+    text-decoration:none;
 }
 
 /*FORMULAIRE*/
@@ -159,7 +178,7 @@ h4 {
     padding: 3px;
     width: 588px;
     height: 588px;
-    margin-left: 353px;
+    margin-left: 397px;
 }
 
 form {
