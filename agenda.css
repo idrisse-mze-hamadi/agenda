@@ -186,6 +186,7 @@ form {
     padding: 20px;
     background: #fff;
     box-shadow: 0 2px 5px #ccc;
+    text-align:center;
 }
 
 input {
